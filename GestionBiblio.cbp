@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AuditLogger.h" />
+		<Unit filename="include/ClientManager.h" />
+		<Unit filename="include/DatabaseManager.h" />
+		<Unit filename="include/IManager.h" />
+		<Unit filename="include/LoginManager.h" />
+		<Unit filename="include/Models.h" />
+		<Unit filename="include/NotificationInterface .h" />
+		<Unit filename="include/ReservationManager.h" />
+		<Unit filename="include/VehicleManager.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AuditLogger.cpp" />
+		<Unit filename="src/ClientManager.cpp" />
+		<Unit filename="src/DatabaseManager.cpp" />
+		<Unit filename="src/LoginManager.cpp" />
+		<Unit filename="src/NotificationInterface .cpp" />
+		<Unit filename="src/ReservationManager.cpp" />
+		<Unit filename="src/VehicleManager.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -1,6 +1,5 @@
 #ifndef IMANAGER_H
 #define IMANAGER_H
-#pragma once
 #include <vector>
 #include <optional>
 

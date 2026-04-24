@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1777011638 source:c:\users\hp\documents\downloads\gestionbiblio\src\auditlogger.cpp
+	"AuditLogger.h"
+	"AuditLogger.h"
+	<fstream>
+	<ctime>
+
+1776982986 c:\users\hp\documents\downloads\gestionbiblio\include\auditlogger.h
+	<vector>
+	<string>
+
